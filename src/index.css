@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-bold-straight/css/uicons-bold-straight.css");
 
 * {
   margin: 0;
@@ -249,4 +250,94 @@ div :nth-child(3) .country-img {
   gap: 100px;
   padding: 50px;
   padding-left: 160px;
+}
+
+.country-title1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-left: 120px;
+  margin-top: 45px;
+  width: 20ch;
+}
+
+.title-container {
+  display: flex;
+}
+
+.trends-text {
+  width: 46ch;
+  margin-top: 85px;
+  font-family: "Poppins", sans-serif;
+}
+
+.trend-img {
+  width: 350px;
+  height: 480px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.trends-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 80px;
+  position: relative;
+}
+
+.cards-text {
+  width: 320px;
+  height: 150px;
+  background: #242524;
+  margin-left: 15px;
+  border-radius: 20px;
+  position: absolute;
+  top: 424px;
+}
+
+.cat-section {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.cat-text {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.arrow {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  background-color: #3ad53a;
+  border-radius: 100px;
+  position: relative;
+}
+
+.arrow-icon {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 13px;
+  left: 15px;
+}
+
+.card-text-title {
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.card-time {
+  color: #f5f6f28f;
+  font-size: 0.87rem;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.trend-img:hover {
+  cursor: pointer;
 }
