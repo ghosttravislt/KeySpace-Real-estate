@@ -264,6 +264,13 @@ div :nth-child(3) .country-img {
   display: flex;
 }
 
+.trends-cards {
+  position: relative;
+  /* border: 2px solid red; */
+  overflow: hidden;
+  width: 350px;
+}
+
 .trends-text {
   width: 46ch;
   margin-top: 85px;
@@ -274,7 +281,6 @@ div :nth-child(3) .country-img {
   width: 350px;
   height: 480px;
   border-radius: 20px;
-  position: relative;
   overflow: hidden;
 }
 
@@ -282,7 +288,7 @@ div :nth-child(3) .country-img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 80px;
-  position: relative;
+  /* height: 568px; */
 }
 
 .cards-text {
@@ -292,7 +298,8 @@ div :nth-child(3) .country-img {
   margin-left: 15px;
   border-radius: 20px;
   position: absolute;
-  top: 424px;
+  top: 524px;
+  transition: top 0.5s ease, cursor 1s;
 }
 
 .cat-section {
@@ -338,6 +345,6 @@ div :nth-child(3) .country-img {
   margin-left: 20px;
 }
 
-.trend-img:hover {
-  cursor: pointer;
+.trends-cards:hover .cards-text {
+  top: 324px;
 }
